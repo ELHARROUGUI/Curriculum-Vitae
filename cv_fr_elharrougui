@@ -1,0 +1,165 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.575in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1.2in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.2in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item{
+    \textbf{#1}{ #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[5]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1 }{\small #2} & #3 \\
+      \textit{\small#4} & \textit{\small #5} \\
+    \end{tabular*}\vspace{-6pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}                                                                                                                               
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+    \textbf{{\Large EL HARROUGUI Mohamed}}
+&    \textbf{{\Large Ingénieur R\&D Logiciel}} \\
+    %& 25 years old, Married, Moroccan.\\
+&    \href{https://www.linkedin.com/in/el-harrougui}{www.linkedin.com/in/el-harrougui}\\
+& Téléphone : +212-625-70-25-61 - Email : \href{mailto:elharrougui0@gmail.com}{elharrougui0@gmail.com}\\%& Address : Residence Marie Rose, Buildig 41, Apt 11, Sala Al-Jadida\\
+\end{tabular*}
+%\href{https://www.linkedin.com/in/el-harrougui/?locale=en_US}{www.linkedin.com/in/el-harrougui/?locale=en\_US}\\
+%Mobile : +212-625-70-25-61 - Email : \href{mailto:elharrougui0@gmail.com}{elharrougui0@gmail.com}\\
+%Address : 20200, Appt4, Imm69, Alworoud St, Beaus\'{e}jour, Casablanca\\
+
+%-----------EDUCATION-----------------
+\section{Formation}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Ingénieur d'état en Génie Logiciel et Intégration des Systèmes Informatiques}{}{}
+{Université Hassan II, Faculté des Sciences et Techniques, Mohammedia.}{Sep. 2015 -- Jul. 2018}
+\resumeSubheading
+{DEUG en Sciences Mathématiques et Informatique}{}{}
+{Université Mohammed V, Faculté des Sciences, Rabat.}{Sep. 2012 -- Jul. 2015}
+\resumeSubHeadingListEnd
+%--------------------------------------
+
+%-----------EXPERIENCE-----------------
+\section{Experiences}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{ATOS en faveur du Groupe La Poste, France}{Software R\&D Engineer}{Remote de Rabat, Maroc}
+{Projet DiversIT: Fournir un ensemble de services en se basant sur des référentiels postaux.}{Dec. 2020 - Present}
+\resumeItemListStart
+
+\resumeItem{}{Développer de nouvelles fonctionnalités avec l'écosystème Java, Spring et ReactJs.}
+\resumeItem{}{Travailler sur l'amélioration et l'automatisation des pipelines CI/CD sur Jenkins.}
+\resumeItem{}{Travailler sur l'optimisation des requêtes Spring Data / Elastic Search.}
+\resumeItem{}{Assurer la haute disponibilité et la maintenance des services IAAS et PAAS de l'application.}
+\resumeItem{}{Assurer une documentation claire et à jour des différents aspects techniques de l'application.}
+\resumeItem{}{Synchroniser avec les acteurs multiculturels de la \textbf{Digital Factory} interférant sur le projet.}
+\resumeItem{}{Participer aux cérémonies d'agilité et à l'amélioration des pratiques de développement logiciel.} 
+\resumeItem{Développement:}{Java, JUnit, Spring, Gitlab, ElasticSearch, MySQL, Talend, Bash, Javascript... }
+\resumeItem{CI/CD:}{Git/Gitlab, Jenkins, Docker, Openshift, IAAS...}
+\resumeItem{Monitoring:}{Kibana, Grafana, Logstach, Prometheus, SonarQube, Postman...}
+
+\resumeItemListEnd
+
+\resumeSubheading
+{Taillis Labs}{Ingénieur R\&D Logiciel / Développeur Full-Stack}{Casablanca, Maroc}
+{Plusieurs clients : Tersea, AutoPlus, OCP, 216.nl }{Sep. 2018 - Nov. 2020}
+\resumeItemListStart
+\resumeItem{}{Participer à la conception des solutions notamment les architectures Micro-services.}
+\resumeItem{}{Collaborer avec des équipes externes, distantes et multiculturelles.}
+\resumeItem{}{Analyse et dépannage des incidents et anomalies signalés par les testeurs ou les utilisateurs finaux.}
+\resumeItem{}{Participer au recrutement et onboarding des nouveaux collaborateursr.}
+\resumeItem{}{Publier des articles sur les patrons de conceptions et les solutions utilisées \& développés en interne.} 
+\resumeItem{Front-End / Mobile:}{ReactJS / React-Native, Redux/Redux Saga, Axios, Apollo-client, Styling...}
+\resumeItem{Back-end:}{ExpressJS, Jest, Apollo-server, CQRS/Event sourcing, Kafka, TypeORM, PostgreSQL.}
+\resumeItem{Third-party APIs:}{MailGun, SendinBlue, Twilio, Hubspot, Messenger, Twitter, 
+Amazon S3.}
+\resumeItem{Agilité \& CI/CD:}{Scrum/TDD, Jira, Git/GitLab, Docker/Docker-compose, Linux/ssh.}
+\resumeItemListEnd
+
+\resumeSubheading
+{110.55. Consulting}{Développeur Full-Stack \& Consultant BI Junior}{Casablanca, Maroc}
+{Développement d'un module CRM intégré à un écosystème de gestion de Marketplace éducative}{Feb. 2018 - Aug. 2019}
+\resumeItemListStart
+\resumeItem{Front-end:}{Angular4, Bootstrap.}
+\resumeItem{Back-end:}{Java7/JEE, Spring, PostgreSQL/Postgrest, Third-party APIs integrations (OneSignal, SMS).}
+\resumeItem{BI Dev:}{KPIs definition, System design, Develop with Pentaho suite, Piloting the CRM module.}
+\resumeItem{Methodology \& Design:}{Scrum/Asana, Git/Bitbucket, UML.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%--------------------------------------
+
+%--------PROGRAMMING SKILLS------------
+\section{Compétences technique}
+\resumeSubHeadingListStart
+\item{\textbf{Langages}{: Java, Javascript, Bash,  C/C++/Arduino, SQL, PL/SQL, JSON, YAML, XML/HTML, CSS.}}\vspace{-4pt}
+\item{\textbf{Frameworks/Librairies}{: JavaEE/Spring, JUnit, ExpressJs, ReactJs, Redux, Jest, Angular.}}\vspace{-6pt}
+\item{\textbf{Design}{: Solid Principles, Patterns, Microservices/Monolithic architectures, Restful/Graphql APIs, UML, Merise.}}\vspace{-6pt}
+\item{\textbf{Data}{: PostgreSQL, MySQL, ELK Stack, Kafka, Talend, Pentaho suite.}}\vspace{-6pt}
+\item{\textbf{CI/CD}{: Git/GitHub/GitLab/Bitbucket, Docker, Jenkins, Openshift/Kubernetes, Scripting, SSH.}}\vspace{-6pt}
+\resumeSubHeadingListEnd
+
+%--------Interests------------
+\section{Centres d'intérêt}
+\resumeSubHeadingListStart
+\item{\textbf{Enseignement}{: Mathématiques, Programmation, Développement logiciel, Robotique.}}\vspace{-4pt}
+\item{\textbf{Fabriquer des systèmes robotiques intelligents}{: Arduino, Rasberry, Participer à des Competitions.}}\vspace{-4pt}
+\item{\textbf{Blogging technique}{: LinkedIn, Medium.}}\vspace{-4pt}
+\resumeSubHeadingListEnd
+
+
+
+\end{document}
